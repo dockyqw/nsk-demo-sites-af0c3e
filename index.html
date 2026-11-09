@@ -1,16 +1,74 @@
 <!doctype html>
-<html lang="ru"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
-<meta name="robots" content="noindex, nofollow, noarchive"><title>Демо-сайты</title>
-<style>body{font:1rem/1.6 system-ui,sans-serif;color:#272430;background:#fbf7fb;padding:2rem}main{max-width:38rem;margin:auto}a{color:#542e64}li{margin:1rem 0}</style></head>
-<body><main><h1>Демо-сайты</h1><ul><li><a href="kotenok-gav.html">Котёнок Гав</a></li>
-<li><a href="shinomontazh-titova.html">Шиномонтаж на Титова</a></li>
-<li><a href="imperiya-mukhtara.html">Империя Мухтара</a></li>
-<li><a href="sad-kofe.html">Сад кофе</a></li>
-<li><a href="idroid.html">iDroid</a></li>
-<li><a href="bad-boys.html">Bad Boy’s</a></li>
-<li><a href="dog-art.html">Дог Арт</a></li>
-<li><a href="strigus.html">СтриГусь</a></li>
-<li><a href="replay.html">РеПлэй</a></li>
-<li><a href="tsb.html">T.S.B.</a></li>
-<li><a href="chinyu-yabloko.html">Чиню Яблоко</a></li>
-<li><a href="rezultat-plus.html">Результат+</a></li></ul></main></body></html>
+<html lang="ru">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="robots" content="noindex, nofollow, noarchive">
+  <title>Демо-сайты Новосибирска</title>
+  <style>
+    * { box-sizing: border-box; }
+    body { margin: 0; background: #f7f6f2; color: #242327; font: 1rem/1.55 system-ui, sans-serif; }
+    main { max-width: 68rem; margin-inline: auto; padding: clamp(2rem, 6vw, 4.5rem) clamp(1rem, 4vw, 2.75rem); }
+    header { margin-bottom: 2rem; }
+    header p { margin: 0; color: #5b5462; font-weight: 650; }
+    h1 { margin: .35rem 0 0; font-size: clamp(2.25rem, 6vw, 4rem); line-height: 1.05; letter-spacing: -.055em; }
+    .groups { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 1rem; align-items: start; }
+    section { border: 1px solid #dedadf; border-radius: 1rem; background: #fff; padding: 1rem 1.2rem; }
+    h2 { margin: 0 0 .5rem; font-size: 1.05rem; line-height: 1.4; color: #573a71; }
+    ul { margin: 0; padding: 0; list-style: none; }
+    li + li { border-top: 1px solid #ebe7ec; }
+    a { display: flex; justify-content: space-between; gap: .75rem; align-items: center; min-height: 46px; padding: .45rem .15rem; color: inherit; font-weight: 680; text-decoration: none; }
+    a:hover { color: #573a71; text-decoration: underline; text-underline-offset: .2em; }
+    a:focus-visible { outline: 2px solid #573a71; outline-offset: 2px; border-radius: .25rem; }
+    a span { color: #6c557d; }
+    @media (max-width: 38rem) { .groups { grid-template-columns: minmax(0, 1fr); } }
+  </style>
+</head>
+<body>
+  <main>
+    <header>
+      <p>Новосибирск · 12 сайтов</p>
+      <h1>Каталог демо-сайтов</h1>
+    </header>
+    <div class="groups">
+      <section aria-labelledby="pets">
+        <h2 id="pets">Груминг и зооцентры</h2>
+        <ul>
+          <li><a href="dog-art.html">Дог Арт <span aria-hidden="true">→</span></a></li>
+          <li><a href="imperiya-mukhtara.html">Империя Мухтара <span aria-hidden="true">→</span></a></li>
+          <li><a href="kotenok-gav.html">Котёнок Гав <span aria-hidden="true">→</span></a></li>
+        </ul>
+      </section>
+      <section aria-labelledby="barbers">
+        <h2 id="barbers">Барбершопы</h2>
+        <ul>
+          <li><a href="bad-boys.html">Bad Boy’s <span aria-hidden="true">→</span></a></li>
+          <li><a href="tsb.html">T.S.B. <span aria-hidden="true">→</span></a></li>
+          <li><a href="strigus.html">СтриГусь <span aria-hidden="true">→</span></a></li>
+        </ul>
+      </section>
+      <section aria-labelledby="tech">
+        <h2 id="tech">Техника и ремонт</h2>
+        <ul>
+          <li><a href="idroid.html">iDroid <span aria-hidden="true">→</span></a></li>
+          <li><a href="replay.html">РеПлэй <span aria-hidden="true">→</span></a></li>
+          <li><a href="chinyu-yabloko.html">Чиню Яблоко <span aria-hidden="true">→</span></a></li>
+        </ul>
+      </section>
+      <section aria-labelledby="auto">
+        <h2 id="auto">Автосервис и шиномонтаж</h2>
+        <ul>
+          <li><a href="rezultat-plus.html">Результат+ <span aria-hidden="true">→</span></a></li>
+          <li><a href="shinomontazh-titova.html">Шиномонтаж на Титова <span aria-hidden="true">→</span></a></li>
+        </ul>
+      </section>
+      <section aria-labelledby="coffee">
+        <h2 id="coffee">Кофейни</h2>
+        <ul>
+          <li><a href="sad-kofe.html">Сад кофе <span aria-hidden="true">→</span></a></li>
+        </ul>
+      </section>
+    </div>
+  </main>
+</body>
+</html>
